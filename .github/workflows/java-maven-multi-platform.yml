@@ -43,5 +43,5 @@ jobs:
           mvn -version
 
       - name: Build and Test with Maven
-        run: mvn -B -ntp verify  # -B batch mode, -ntp no transfer progress
+        run: cd compiler_Experiment && mvn -B -ntp verify  # -B batch mode, -ntp no transfer progress
 
