@@ -1,0 +1,5 @@
+num1 = 15.5;
+num2 = 10;
+num3 = num1 + num2 * 2;
+num4 = (num3 - 5) / 3;
+num5 = num4 + 1.25;

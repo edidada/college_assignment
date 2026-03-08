@@ -1,0 +1,11 @@
+tempA	:Id
+*	:Operator
+(	:Operator
+tempB	:Id
+*	:Operator
+(	:Operator
+tempC	:Id
++	:Operator
+tempD	:Id
+)	:Operator
+)	:Operator

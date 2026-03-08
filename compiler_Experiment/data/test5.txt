@@ -1,0 +1,4 @@
+temp1 = 1;
+temp2 = 2;
+temp3 = 3;
+result = ((temp1 + temp2) * temp3) - (temp1 / temp2);
