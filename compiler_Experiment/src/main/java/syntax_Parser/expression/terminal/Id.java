@@ -25,8 +25,6 @@ public class Id extends TerminalExpression {
 
     @Override
     public boolean isToken(Token token) {
-        return token.getState().getAcceptName().equals(this.getName()) ||
-                token.getState().getAcceptName().equals("Integer") ||
-                token.getState().getAcceptName().equals("Float");
+        return token.getState().getAcceptName().equals(this.getName());
     }
 }

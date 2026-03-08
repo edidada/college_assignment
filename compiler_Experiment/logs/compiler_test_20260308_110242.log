@@ -1,0 +1,50 @@
+========================================
+Compiler Test Log - 2026-03-08 11:02:42
+========================================
+
+Processing file: data/lexical.txt
+======================================================
+======================================================
+Tokens: [aTemp	:Id, =	:Operator, 600	:Integer, ;	:Separator, bTemp	:Id, =	:Operator, 50.5	:Float, +	:Operator, 500	:Integer, ;	:Separator, wsx_2022	:Id, =	:Operator, aTemp	:Id, *	:Operator, bTemp	:Id, ;	:Separator, chy_2023	:Id, =	:Operator, 2	:Integer, -	:Operator, bTemp	:Id, ;	:Separator, z	:Id, =	:Operator, x	:Id, /	:Operator, 2	:Integer, +	:Operator, y	:Id, *	:Operator, 30.5	:Float, -	:Operator, 20	:Integer, ;	:Separator]
+File data/lexical.txt processed successfully.
+
+Processing file: data/syntax.txt
+======================================================
+======================================================
+Tokens: [aTemp	:Id, =	:Operator, 600	:Integer, ;	:Separator, bTemp	:Id, =	:Operator, 50.5	:Float, +	:Operator, 500	:Integer, ;	:Separator, wsx_2022	:Id, =	:Operator, aTemp	:Id, *	:Operator, bTemp	:Id, ;	:Separator, chy_2023	:Id, =	:Operator, 2	:Integer, -	:Operator, bTemp	:Id, ;	:Separator, z	:Id, =	:Operator, x	:Id, /	:Operator, 2	:Integer, +	:Operator, y	:Id, *	:Operator, 30.5	:Float, -	:Operator, 20	:Integer, ;	:Separator, $	:Separator, tempA	:Id, *	:Operator, (	:Operator, tempB	:Id, *	:Operator, (	:Operator, tempC	:Id, +	:Operator, tempD	:Id, )	:Operator, )	:Operator]
+File data/syntax.txt processed successfully.
+
+Processing file: data/test1.txt
+======================================================
+======================================================
+Tokens: [aTemp	:Id, =	:Operator, 600	:Integer, ;	:Separator, bTemp	:Id, =	:Operator, 50.5	:Float, +	:Operator, 500	:Integer, ;	:Separator, wsx_2022	:Id, =	:Operator, aTemp	:Id, *	:Operator, bTemp	:Id, ;	:Separator, chy_2023	:Id, =	:Operator, 2	:Integer, -	:Operator, bTemp	:Id, ;	:Separator, z	:Id, =	:Operator, x	:Id, /	:Operator, 2	:Integer, +	:Operator, y	:Id, *	:Operator, 30.5	:Float, -	:Operator, 20	:Integer, ;	:Separator, $	:Separator, tempA	:Id, *	:Operator, (	:Operator, tempB	:Id, *	:Operator, (	:Operator, tempC	:Id, +	:Operator, tempD	:Id, )	:Operator, )	:Operator, $	:Separator, x	:Id, =	:Operator, 10	:Integer, ;	:Separator, y	:Id, =	:Operator, 20	:Integer, ;	:Separator, z	:Id, =	:Operator, x	:Id, +	:Operator, y	:Id, ;	:Separator, result	:Id, =	:Operator, z	:Id, *	:Operator, 2	:Integer, ;	:Separator]
+File data/test1.txt processed successfully.
+
+Processing file: data/test2.txt
+======================================================
+======================================================
+Tokens: [aTemp	:Id, =	:Operator, 600	:Integer, ;	:Separator, bTemp	:Id, =	:Operator, 50.5	:Float, +	:Operator, 500	:Integer, ;	:Separator, wsx_2022	:Id, =	:Operator, aTemp	:Id, *	:Operator, bTemp	:Id, ;	:Separator, chy_2023	:Id, =	:Operator, 2	:Integer, -	:Operator, bTemp	:Id, ;	:Separator, z	:Id, =	:Operator, x	:Id, /	:Operator, 2	:Integer, +	:Operator, y	:Id, *	:Operator, 30.5	:Float, -	:Operator, 20	:Integer, ;	:Separator, $	:Separator, tempA	:Id, *	:Operator, (	:Operator, tempB	:Id, *	:Operator, (	:Operator, tempC	:Id, +	:Operator, tempD	:Id, )	:Operator, )	:Operator, $	:Separator, x	:Id, =	:Operator, 10	:Integer, ;	:Separator, y	:Id, =	:Operator, 20	:Integer, ;	:Separator, z	:Id, =	:Operator, x	:Id, +	:Operator, y	:Id, ;	:Separator, result	:Id, =	:Operator, z	:Id, *	:Operator, 2	:Integer, ;	:Separator, $	:Separator, a	:Id, =	:Operator, 5.5	:Float, ;	:Separator, b	:Id, =	:Operator, 3.2	:Float, ;	:Separator, c	:Id, =	:Operator, a	:Id, *	:Operator, b	:Id, +	:Operator, 10	:Integer, ;	:Separator, d	:Id, =	:Operator, c	:Id, /	:Operator, 2	:Integer, -	:Operator, 1.5	:Float, ;	:Separator]
+File data/test2.txt processed successfully.
+
+Processing file: data/test3.txt
+======================================================
+======================================================
+Tokens: [aTemp	:Id, =	:Operator, 600	:Integer, ;	:Separator, bTemp	:Id, =	:Operator, 50.5	:Float, +	:Operator, 500	:Integer, ;	:Separator, wsx_2022	:Id, =	:Operator, aTemp	:Id, *	:Operator, bTemp	:Id, ;	:Separator, chy_2023	:Id, =	:Operator, 2	:Integer, -	:Operator, bTemp	:Id, ;	:Separator, z	:Id, =	:Operator, x	:Id, /	:Operator, 2	:Integer, +	:Operator, y	:Id, *	:Operator, 30.5	:Float, -	:Operator, 20	:Integer, ;	:Separator, $	:Separator, tempA	:Id, *	:Operator, (	:Operator, tempB	:Id, *	:Operator, (	:Operator, tempC	:Id, +	:Operator, tempD	:Id, )	:Operator, )	:Operator, $	:Separator, x	:Id, =	:Operator, 10	:Integer, ;	:Separator, y	:Id, =	:Operator, 20	:Integer, ;	:Separator, z	:Id, =	:Operator, x	:Id, +	:Operator, y	:Id, ;	:Separator, result	:Id, =	:Operator, z	:Id, *	:Operator, 2	:Integer, ;	:Separator, $	:Separator, a	:Id, =	:Operator, 5.5	:Float, ;	:Separator, b	:Id, =	:Operator, 3.2	:Float, ;	:Separator, c	:Id, =	:Operator, a	:Id, *	:Operator, b	:Id, +	:Operator, 10	:Integer, ;	:Separator, d	:Id, =	:Operator, c	:Id, /	:Operator, 2	:Integer, -	:Operator, 1.5	:Float, ;	:Separator, $	:Separator, value1	:Id, =	:Operator, 100	:Integer, ;	:Separator, value2	:Id, =	:Operator, 50	:Integer, ;	:Separator, value3	:Id, =	:Operator, (	:Operator, value1	:Id, +	:Operator, value2	:Id, )	:Operator, *	:Operator, 2	:Integer, ;	:Separator, value4	:Id, =	:Operator, value3	:Id, /	:Operator, 10	:Integer, ;	:Separator]
+File data/test3.txt processed successfully.
+
+Processing file: data/test4.txt
+======================================================
+======================================================
+Tokens: [aTemp	:Id, =	:Operator, 600	:Integer, ;	:Separator, bTemp	:Id, =	:Operator, 50.5	:Float, +	:Operator, 500	:Integer, ;	:Separator, wsx_2022	:Id, =	:Operator, aTemp	:Id, *	:Operator, bTemp	:Id, ;	:Separator, chy_2023	:Id, =	:Operator, 2	:Integer, -	:Operator, bTemp	:Id, ;	:Separator, z	:Id, =	:Operator, x	:Id, /	:Operator, 2	:Integer, +	:Operator, y	:Id, *	:Operator, 30.5	:Float, -	:Operator, 20	:Integer, ;	:Separator, $	:Separator, tempA	:Id, *	:Operator, (	:Operator, tempB	:Id, *	:Operator, (	:Operator, tempC	:Id, +	:Operator, tempD	:Id, )	:Operator, )	:Operator, $	:Separator, x	:Id, =	:Operator, 10	:Integer, ;	:Separator, y	:Id, =	:Operator, 20	:Integer, ;	:Separator, z	:Id, =	:Operator, x	:Id, +	:Operator, y	:Id, ;	:Separator, result	:Id, =	:Operator, z	:Id, *	:Operator, 2	:Integer, ;	:Separator, $	:Separator, a	:Id, =	:Operator, 5.5	:Float, ;	:Separator, b	:Id, =	:Operator, 3.2	:Float, ;	:Separator, c	:Id, =	:Operator, a	:Id, *	:Operator, b	:Id, +	:Operator, 10	:Integer, ;	:Separator, d	:Id, =	:Operator, c	:Id, /	:Operator, 2	:Integer, -	:Operator, 1.5	:Float, ;	:Separator, $	:Separator, value1	:Id, =	:Operator, 100	:Integer, ;	:Separator, value2	:Id, =	:Operator, 50	:Integer, ;	:Separator, value3	:Id, =	:Operator, (	:Operator, value1	:Id, +	:Operator, value2	:Id, )	:Operator, *	:Operator, 2	:Integer, ;	:Separator, value4	:Id, =	:Operator, value3	:Id, /	:Operator, 10	:Integer, ;	:Separator, $	:Separator, num1	:Id, =	:Operator, 15.5	:Float, ;	:Separator, num2	:Id, =	:Operator, 10	:Integer, ;	:Separator, num3	:Id, =	:Operator, num1	:Id, +	:Operator, num2	:Id, *	:Operator, 2	:Integer, ;	:Separator, num4	:Id, =	:Operator, (	:Operator, num3	:Id, -	:Operator, 5	:Integer, )	:Operator, /	:Operator, 3	:Integer, ;	:Separator, num5	:Id, =	:Operator, num4	:Id, +	:Operator, 1.25	:Float, ;	:Separator]
+File data/test4.txt processed successfully.
+
+Processing file: data/test5.txt
+======================================================
+======================================================
+Tokens: [aTemp	:Id, =	:Operator, 600	:Integer, ;	:Separator, bTemp	:Id, =	:Operator, 50.5	:Float, +	:Operator, 500	:Integer, ;	:Separator, wsx_2022	:Id, =	:Operator, aTemp	:Id, *	:Operator, bTemp	:Id, ;	:Separator, chy_2023	:Id, =	:Operator, 2	:Integer, -	:Operator, bTemp	:Id, ;	:Separator, z	:Id, =	:Operator, x	:Id, /	:Operator, 2	:Integer, +	:Operator, y	:Id, *	:Operator, 30.5	:Float, -	:Operator, 20	:Integer, ;	:Separator, $	:Separator, tempA	:Id, *	:Operator, (	:Operator, tempB	:Id, *	:Operator, (	:Operator, tempC	:Id, +	:Operator, tempD	:Id, )	:Operator, )	:Operator, $	:Separator, x	:Id, =	:Operator, 10	:Integer, ;	:Separator, y	:Id, =	:Operator, 20	:Integer, ;	:Separator, z	:Id, =	:Operator, x	:Id, +	:Operator, y	:Id, ;	:Separator, result	:Id, =	:Operator, z	:Id, *	:Operator, 2	:Integer, ;	:Separator, $	:Separator, a	:Id, =	:Operator, 5.5	:Float, ;	:Separator, b	:Id, =	:Operator, 3.2	:Float, ;	:Separator, c	:Id, =	:Operator, a	:Id, *	:Operator, b	:Id, +	:Operator, 10	:Integer, ;	:Separator, d	:Id, =	:Operator, c	:Id, /	:Operator, 2	:Integer, -	:Operator, 1.5	:Float, ;	:Separator, $	:Separator, value1	:Id, =	:Operator, 100	:Integer, ;	:Separator, value2	:Id, =	:Operator, 50	:Integer, ;	:Separator, value3	:Id, =	:Operator, (	:Operator, value1	:Id, +	:Operator, value2	:Id, )	:Operator, *	:Operator, 2	:Integer, ;	:Separator, value4	:Id, =	:Operator, value3	:Id, /	:Operator, 10	:Integer, ;	:Separator, $	:Separator, num1	:Id, =	:Operator, 15.5	:Float, ;	:Separator, num2	:Id, =	:Operator, 10	:Integer, ;	:Separator, num3	:Id, =	:Operator, num1	:Id, +	:Operator, num2	:Id, *	:Operator, 2	:Integer, ;	:Separator, num4	:Id, =	:Operator, (	:Operator, num3	:Id, -	:Operator, 5	:Integer, )	:Operator, /	:Operator, 3	:Integer, ;	:Separator, num5	:Id, =	:Operator, num4	:Id, +	:Operator, 1.25	:Float, ;	:Separator, $	:Separator, temp1	:Id, =	:Operator, 1	:Integer, ;	:Separator, temp2	:Id, =	:Operator, 2	:Integer, ;	:Separator, temp3	:Id, =	:Operator, 3	:Integer, ;	:Separator, result	:Id, =	:Operator, (	:Operator, (	:Operator, temp1	:Id, +	:Operator, temp2	:Id, )	:Operator, *	:Operator, temp3	:Id, )	:Operator, -	:Operator, (	:Operator, temp1	:Id, /	:Operator, temp2	:Id, )	:Operator, ;	:Separator]
+File data/test5.txt processed successfully.
+
+
+========================================
+All tests completed successfully!
+========================================

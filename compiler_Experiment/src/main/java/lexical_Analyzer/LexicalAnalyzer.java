@@ -26,6 +26,7 @@ public class LexicalAnalyzer {
     private static ArrayList<Token> tokens = new ArrayList<>();
 
     public static void init(String inFile, String outFile) {
+        tokens.clear();
         ConstructionTable.init();
         try {
             fileReader = new FileReader(inFile);

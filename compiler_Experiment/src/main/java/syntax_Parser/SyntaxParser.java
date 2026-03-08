@@ -19,7 +19,7 @@ import lexical_Analyzer.AcceptState;
 import lexical_Analyzer.Token;
 import syntax_Parser.expression.AbstractExpression;
 import syntax_Parser.expression.NonterminalExpression;
-import syntax_Parser.expression.nonterminal.ExpressionE;
+import syntax_Parser.expression.nonterminal.Program;
 import syntax_Parser.expression.terminal.Terminator;
 
 import java.io.FileWriter;
@@ -65,7 +65,7 @@ public class SyntaxParser {
         //栈预处理
         Stack<AbstractExpression> stack = new Stack<>();
         stack.push(new Terminator());
-        stack.push(new ExpressionE());
+        stack.push(new Program());
         //token串指针
         int forward = 0;
         //开始归约
@@ -101,6 +101,10 @@ public class SyntaxParser {
                 forward++;
             }else {//输出动作
                 NonterminalExpression grammar = ForecastTable.grammars.get(temp);
+                if(grammar == null) {
+                    System.out.println("Error: Grammar not found for index " + temp);
+                    return;
+                }
                 System.out.println("Output:" + grammar.toString());
                 try {
                     fileWriter.write("Output:" + grammar + "\n");

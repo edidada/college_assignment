@@ -1,0 +1,14 @@
+========================================
+Compiler Test Log - 2026-03-08 11:08:46
+========================================
+
+Processing file: data/test1.txt
+======================================================
+======================================================
+Tokens: [x	:Id, =	:Operator, 10	:Integer, ;	:Separator, y	:Id, =	:Operator, 20	:Integer, ;	:Separator, z	:Id, =	:Operator, x	:Id, +	:Operator, y	:Id, ;	:Separator, result	:Id, =	:Operator, z	:Id, *	:Operator, 2	:Integer, ;	:Separator]
+File data/test1.txt processed successfully.
+
+
+========================================
+All tests completed successfully!
+========================================
